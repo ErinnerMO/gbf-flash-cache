@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">#0C1119</item>
+        <item name="android:colorAccent">#85DFCB</item>
+    </style>
+    <style name="NormalTheme" parent="LaunchTheme" />
+</resources>

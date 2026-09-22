@@ -1,0 +1,22 @@
+.worktrees/
+.venv/
+.state/
+__pycache__/
+*.pyc
+/core/target/
+/dist/
+/data/
+# Local Android signing credentials must never enter source control.
+*.jks
+*.keystore
+# Existing workspaces may still contain generated files from historical builds.
+web-ext-artifacts/
+android/.gradle/
+android/**/build/
+android/local.properties
+rust-core/target/
+/desktop_flutter/
+
+/target/
+
+/app/android/.kotlin/

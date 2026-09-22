@@ -1,0 +1,28 @@
+name: gbf_flash_cache
+description: GBF Flash Cache desktop UI
+publish_to: none
+version: 1.14.98+11498
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_selector: ^1.1.0
+  window_manager: ^0.5.2
+  tray_manager: ^0.5.3
+  ffi: ^2.1.4
+  path: ^1.9.1
+  screen_retriever: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/app-icon.png
+    - assets/app-icon.ico

@@ -1,0 +1,7 @@
+[workspace]
+members = ["core", "app/native"]
+exclude = ["vendor/httparse"]
+resolver = "2"
+
+[patch.crates-io]
+httparse = { path = "vendor/httparse" }

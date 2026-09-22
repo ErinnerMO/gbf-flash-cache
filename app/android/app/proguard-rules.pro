@@ -1,0 +1,1 @@
+-keep class dev.gbfcache.flashcache.NativeCore { native <methods>; }
